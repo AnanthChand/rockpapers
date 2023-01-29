@@ -1,0 +1,17 @@
+body {
+  background-color: #8ec5fc;
+  background-repeat: no-repeat;
+}
+
+.title{
+  font-family: 'Playfair Display', serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  align-items: center;
+}
+
+
