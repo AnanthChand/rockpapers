@@ -17,7 +17,7 @@ function playRound(playerSelection, computerSelection) {
   // compares playerSelection and computerSelection to determine winner of the round
   playerSelection = playerSelection.toLowerCase();
   if (playerSelection === computerSelection) {
-    return "It's a tie!";
+    return `Its a tie, as computer choose ${computerSelection}.`;
   } else if (
     (playerSelection === "rock" && computerSelection === "scissors") ||
     (playerSelection === "paper" && computerSelection === "rock") ||
@@ -25,11 +25,11 @@ function playRound(playerSelection, computerSelection) {
   ) {
     playerScore++;
     playerScoreDisplay.textContent = playerScore;
-    return `You win! ${playerSelection} beats ${computerSelection}.`;
+    return `You won, as computer choose ${computerSelection}.`;
   } else {
     computerScore++;
     computerScoreDisplay.textContent = computerScore;
-    return `You lose! ${computerSelection} beats ${playerSelection}.`;
+    return `You lost, as computer choose ${computerSelection} .`;
   }
 }
 
