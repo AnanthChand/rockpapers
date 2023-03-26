@@ -1,9 +1,9 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Sofia+Sans+Extra+Condensed&display=swap");
 
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  margin:0;
+  margin: 0;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -14,15 +14,31 @@ body {
   background-repeat: no-repeat;
 }
 
+.gamePage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
-  margin-top: 50px;
   color: white;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-size: 75px;
 }
 
 .scoreboard {
-  margin: 20px 0;
   color: white;
-
+  border: 1px solid;
+  width: 20%;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  justify-items: center;
 }
 
 .game {
@@ -55,5 +71,4 @@ h1 {
 .results {
   margin-top: 20px;
   color: white;
-
 }
