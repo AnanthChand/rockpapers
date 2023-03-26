@@ -1,14 +1,28 @@
+
+
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  margin:0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
 }
 
 h1 {
   margin-top: 50px;
+  color: white;
 }
 
 .scoreboard {
   margin: 20px 0;
+  color: white;
+
 }
 
 .game {
@@ -40,4 +54,6 @@ h1 {
 
 .results {
   margin-top: 20px;
+  color: white;
+
 }
